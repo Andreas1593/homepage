@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Image, Link, List, ListIcon, ListItem, SimpleGrid } from '@chakra-ui/react'
+import { Box, Container, Heading, Link, List, ListIcon, ListItem, SimpleGrid } from '@chakra-ui/react'
 import { CheckCircleIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
@@ -39,9 +39,9 @@ const Cs50x = () => {
 
                         <blockquote style={quote}>
                             <Paragraph>
-                                "In diesem Kurs lernen die Studierenden, wie sie algorithmisch denken und Probleme effizient lösen können.
+                                &quot;In diesem Kurs lernen die Studierenden, wie sie algorithmisch denken und Probleme effizient lösen können.
                                 Zu den Themen gehören Abstraktion, Algorithmen, Datenstrukturen, Kapselung, Ressourcenmanagement, Sicherheit,
-                                Softwaretechnik und Webprogrammierung. Zu den Sprachen gehören C, Python und SQL sowie HTML, CSS und JavaScript."
+                                Softwaretechnik und Webprogrammierung. Zu den Sprachen gehören C, Python und SQL sowie HTML, CSS und JavaScript.&quot;
                             </Paragraph>
                         </blockquote>
                     </Paragraph>
@@ -100,7 +100,7 @@ const Cs50x = () => {
                             </ListItem>
                         </List>
                         <Box m={2}>
-                            Begleitend dazu werden zehn "Problem Sets" und elf "Labs" bearbeitet sowie ein Abschluss-Projekt erstellt.
+                            Begleitend dazu werden zehn &quot;Problem Sets&quot; und elf &quot;Labs&quot; bearbeitet sowie ein Abschluss-Projekt erstellt.
                         </Box>
                     </Paragraph>
                 </Section>

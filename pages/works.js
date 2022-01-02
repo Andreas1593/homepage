@@ -28,7 +28,7 @@ const Works = () => {
                     </Section>
                     <Section>
                         <WorkGridItem id="desert-defense" title="Desert Defense" thumbnail={thumbDesertDefense}>
-                            Ein "Tower Defense"-Spiel in 3D, erstellt mit Unity
+                            Ein &quot;Tower Defense&quot;-Spiel in 3D, erstellt mit Unity
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>

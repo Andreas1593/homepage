@@ -41,10 +41,10 @@ const VoxelCoffee = () => {
             container.appendChild(renderer.domElement)
             setRenderer(renderer)
 
+            // Orthographic maybe later
             // 640 -> 240
             // 8 -> 6
-            const scale = scH * 0.005 + 4.8
-            // Orthographic?
+            // const scale = scH * 0.005 + 4.8
             const camera = new THREE.PerspectiveCamera()
             camera.position.copy(initialCameraPosition)
             camera.lookAt(target)

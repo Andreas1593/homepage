@@ -12,7 +12,7 @@ const Work = () => {
                     Desert Defense <Badge>2021</Badge>
                 </Title>
                 <P>
-                    Ein <span style={{ color: 'green' }}>3D-Spiel</span> im beliebten "Tower Defense"-Stil. Es erscheint regelmäßig eine Welle an Gegnern, die einen bestimmten Weg entlang laufen.
+                    Ein <span style={{ color: 'green' }}>3D-Spiel</span> im beliebten &quot;Tower Defense&quot;-Stil. Es erscheint regelmäßig eine Welle an Gegnern, die einen bestimmten Weg entlang laufen.
                     Das Ziel des Spielers ist es, Geschütztürme zu bauen, die automatisch schießen, um die Gegner zu töten, bevor sie das Ende erreichen.
                     Das Schwierige dabei ist, dass die Ressourcen für den Bau begrenzt sind.
                 </P>

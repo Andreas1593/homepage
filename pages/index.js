@@ -16,8 +16,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 // Maybe later
-import { BioSection, BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-item'
+// import { BioSection, BioYear } from '../components/bio'
+// import { GridItem } from '../components/grid-item'
 import {
     IoLogoGithub,
     IoLogoLinkedin,

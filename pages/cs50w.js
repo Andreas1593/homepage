@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Image, Link, List, ListIcon, ListItem, SimpleGrid } from '@chakra-ui/react'
+import { Box, Container, Heading, Link, List, ListIcon, ListItem, SimpleGrid } from '@chakra-ui/react'
 import { CheckCircleIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
@@ -39,12 +39,12 @@ const Cs50x = () => {
 
                     <blockquote style={quote}>
                         <Paragraph>
-                            "Dieser Kurs setzt dort an, wo CS50x aufhört und vertieft das Design und die Implementierung von Webanwendungen mit Python, 
+                            &quot;Dieser Kurs setzt dort an, wo CS50x aufhört und vertieft das Design und die Implementierung von Webanwendungen mit Python, 
                             JavaScript und SQL unter Verwendung von Frameworks wie Django, React und Bootstrap. Zu den Themen gehören Datenbankdesign, 
                             Skalierbarkeit, Sicherheit und Benutzerfreundlichkeit. Anhand praktischer Projekte lernen die Studierenden, APIs zu schreiben 
                             und zu verwenden, interaktive Benutzeroberflächen zu erstellen und Cloud-Dienste wie GitHub und Heroku zu nutzen. Am Ende des 
                             Semesters verfügen die Studierenden über Kenntnisse und Erfahrungen mit Prinzipien, Sprachen und Tools, die sie in die Lage 
-                            versetzen, Anwendungen im Internet zu entwerfen und bereitzustellen."
+                            versetzen, Anwendungen im Internet zu entwerfen und bereitzustellen.&quot;
                         </Paragraph>
                     </blockquote>
                 </Paragraph>
