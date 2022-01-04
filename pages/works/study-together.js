@@ -13,14 +13,18 @@ const Work = () => {
                 </Title>
                 <P>
                     Eine Progressive Web App zum gemeinschaftlichen Erstellen und Üben von Kartei-Karten innerhalb von Gruppen.
-                    <br />
-                    <br />
+                </P>
+                <br />
+                <P>
                     Man erstellt <span style={{ color: 'green' }}>Gruppen</span> oder tritt diesen bei.
-                    Jedes Mitglied kann <span style={{ color: 'green' }}>Themen</span> sowie dazugehörige <span style={{ color: 'green' }}>Kartei-Karten</span> erstellen und die Karten der anderen lesen.
-                    Das spart redundantes Erstellen von Kartei-Karten und motiviert zum gemeinschaftlichen Lernen, z. B. innerhalb einer Schulklasse.
-                    <br />
-                    Zusätzlich gibt es die <span style={{ color: 'green' }}>Funktion</span>, alle Karten eines Themas abfragen zu lassen, wobei richtig beantwortete Karten entfernt und falsch beantwortete am Ende erneut abgefragt werden.
-                    Dabei wird die persönliche <span style={{ color: 'green' }}>Quote</span> aktualisiert, wie oft Karten auf den ersten Versuch richtig beantwortet werden.
+                    Jedes Mitglied kann <span style={{ color: 'green' }}>Themen</span> sowie dazugehörige <span style={{ color: 'green' }}>Kartei-Karten</span> erstellen 
+                    und die Karten der anderen lesen. Das spart redundantes Erstellen von Kartei-Karten und motiviert zum gemeinschaftlichen Lernen, z. B. innerhalb einer 
+                    Schulklasse.
+                </P>
+                <P>
+                    Zusätzlich gibt es die <span style={{ color: 'green' }}>Funktion</span>, alle Karten eines Themas abfragen zu lassen, wobei richtig beantwortete Karten 
+                    entfernt und falsch beantwortete am Ende erneut abgefragt werden. Feedback erhält man durch eine persönliche <span style={{ color: 'green' }}>Quote</span>, 
+                    wie oft Karten auf den ersten Versuch richtig beantwortet wurden.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

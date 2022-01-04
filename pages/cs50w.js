@@ -95,7 +95,8 @@ const Cs50x = () => {
                             </ListItem>
                         </List>
                         <Box m={2}>
-                        Begleitend dazu werden fünf Projekte sowie ein Abschluss-Projekt erstellt.</Box>
+                            Begleitend dazu werden fünf Projekte sowie ein Abschluss-Projekt erstellt.
+                        </Box>
                     </Paragraph>
                 </Section>
 

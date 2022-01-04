@@ -12,6 +12,7 @@ import {
     MenuList,
     MenuButton,
     IconButton,
+    Spacer,
     useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
@@ -76,6 +77,10 @@ const Navbar = props => {
                         <LinkItem href="/cs50w" path={path}>
                             CS50W
                         </LinkItem>
+                        <Spacer />
+                        <LinkItem href="/imprint" path={path}>
+                            Impressum
+                        </LinkItem>
                     </Stack>
 
                     <Box flex={1} align="right">
@@ -100,6 +105,9 @@ const Navbar = props => {
                                     </NextLink>
                                     <NextLink href="/cs50w" passHref>
                                         <MenuItem as={Link}>CS50W</MenuItem>
+                                    </NextLink>
+                                    <NextLink href="/imprint" passHref>
+                                        <MenuItem as={Link}>Impressum</MenuItem>
                                     </NextLink>
                                 </MenuList>
                             </Menu>

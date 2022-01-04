@@ -13,8 +13,9 @@ const Work = () => {
                 </Title>
                 <P>
                     Eine Web App zum Auslesen und Darstellen von DESADV-Nachrichten. Deren Packstücke werden tabellarisch sowie in einer interaktiven 3D-Umgebung dargestellt.
-                    <br />
-                    <br />
+                </P>
+                <br />
+                <P>
                     <Link href="https://www.edicenter.de/22-05-2019-desadv-was-ist-das-eigentlich/" target="_blank">
                         DESADV
                     </Link>
