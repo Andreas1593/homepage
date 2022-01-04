@@ -1,10 +1,7 @@
-import { Box, Container, Heading, Link, List, ListIcon, ListItem, SimpleGrid } from '@chakra-ui/react'
-import { CheckCircleIcon } from '@chakra-ui/icons'
+import { Container, Heading } from '@chakra-ui/react'
 import Section from '../components/section'
-import { ProjectGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Paragraph2 from '../components/paragraph2'
-import ModalImage from 'react-modal-image';
 
 const Cs50x = () => {
     return (
@@ -81,12 +78,5 @@ const Cs50x = () => {
         </Layout>
     )
 }
-
-const quote = {
-    borderLeft: "7px solid #ccc",
-    margin: "1.5em 10px",
-    padding: "0.5em 10px",
-}
-
 
 export default Cs50x
