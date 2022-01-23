@@ -35,12 +35,16 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Django, jQuery</span>
+                        <span>Django, jQuery, PostgreSQL</span>
                     </ListItem>
                 </List>
 
-                <WorkImage src="/images/works/study-together-study.gif" alt="Study together!" />
-                <div align="center"><WorkImage src="/images/works/study-together-mobile.gif" alt="Mobile View" /></div>
+                <WorkImage thumb="/images/works/study-together-study.gif" image="/images/works/study-together-study.gif" alt="Study together!" />
+                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    <div style={{ maxWidth: 180 }}>
+                        <WorkImage thumb="/images/works/study-together-mobile.gif" image="/images/works/study-together-mobile.gif" alt="Mobile View" />
+                    </div>
+                </div>
             </Container>
         </Layout>
     )

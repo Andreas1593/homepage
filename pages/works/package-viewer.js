@@ -39,8 +39,8 @@ const Work = () => {
                     </ListItem>
                 </List>
 
-                <WorkImage src="/images/works/package-viewer.png" alt="Package Viewer" />
-                <WorkImage src="/images/works/package-viewer.gif" alt="3D-Ansicht" />
+                <WorkImage thumb="/images/works/package-viewer-thumb.png" image="/images/works/package-viewer.png" alt="Package Viewer" />
+                <WorkImage thumb="/images/works/package-viewer.gif" image="/images/works/package-viewer.gif" alt="3D-Ansicht" />
             </Container>
         </Layout>
     )

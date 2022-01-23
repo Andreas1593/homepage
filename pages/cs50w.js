@@ -16,7 +16,7 @@ const Cs50x = () => {
                 </Heading>
             <Box>
                 <ModalImage
-                    small={"/images/contents/cs50w-certificate.png"}
+                    small={"/images/contents/cs50w-certificate-thumb.png"}
                     large={"/images/contents/cs50w-certificate.png"}
                     alt="CS50W Verified Certificate"
                     hideDownload="true"
@@ -56,7 +56,13 @@ const Cs50x = () => {
                     </Heading>
                     <Paragraph>
                         Der Kurs beeinhaltet neun Einheiten:
-                        <List mx={3}>
+                        <List
+                            mx={3}
+                            style={{
+                                textIndent: "-23px",
+                                paddingLeft: "40px"
+                            }}
+                        >
                             <ListItem>
                                 <ListIcon as={CheckCircleIcon} color='green.500' />
                                 HTML, CSS
@@ -106,19 +112,19 @@ const Cs50x = () => {
                     </Heading>
                     <SimpleGrid columns={[1,1,2]} gap={6}>
                         <Section>
-                            <ProjectGridItem image="/images/contents/hardvard_standard.png" alt="Harvard Standard">Harvard Standard</ProjectGridItem>
+                            <ProjectGridItem image="/images/contents/hardvard-standard.png" thumb="/images/contents/hardvard-standard-thumb.png" alt="Harvard Standard">Harvard Standard</ProjectGridItem>
                         </Section>
                         <Section>
-                            <ProjectGridItem image="/images/contents/project-1-wiki.png" alt="Project 1 - Wiki">Project 1 - Wiki</ProjectGridItem>
+                            <ProjectGridItem image="/images/contents/project-1-wiki.png" thumb="/images/contents/project-1-wiki-thumb.png" alt="Project 1 - Wiki">Project 1 - Wiki</ProjectGridItem>
                         </Section>
                         <Section>
-                            <ProjectGridItem image="/images/contents/project-2-commerce_01.png" alt="Project 4 - Commerce">Project 2 - Commerce</ProjectGridItem>
+                            <ProjectGridItem image="/images/contents/project-2-commerce_01.png" thumb="/images/contents/project-2-commerce_01-thumb.png" alt="Project 4 - Commerce">Project 2 - Commerce</ProjectGridItem>
                         </Section>
                         <Section>
-                            <ProjectGridItem image="/images/contents/project-2-commerce_02.png" alt="Project 4 - Commerce (Artikel)">Project 2 - Commerce (Artikel)</ProjectGridItem>
+                            <ProjectGridItem image="/images/contents/project-2-commerce_02.png" thumb="/images/contents/project-2-commerce_02-thumb.png" alt="Project 4 - Commerce (Artikel)">Project 2 - Commerce (Artikel)</ProjectGridItem>
                         </Section>
                         <Section>
-                            <ProjectGridItem image="/images/contents/project-4-network.png" alt="Project 4 - Network">Project 4 - Network</ProjectGridItem>
+                            <ProjectGridItem image="/images/contents/project-4-network.png" thumb="/images/contents/project-4-network-thumb.png" alt="Project 4 - Network">Project 4 - Network</ProjectGridItem>
                         </Section>
                     </SimpleGrid>
                 </Section>

@@ -16,7 +16,7 @@ const Cs50x = () => {
                 </Heading>
                 <Box>
                     <ModalImage
-                        small={"/images/contents/cs50x-certificate.png"}
+                        small={"/images/contents/cs50x-certificate-thumb.png"}
                         large={"/images/contents/cs50x-certificate.png"}
                         alt="CS50x Verified Certificate"
                         hideDownload="true"
@@ -53,7 +53,13 @@ const Cs50x = () => {
                     </Heading>
                     <Paragraph>
                         Der Kurs beeinhaltet elf Einheiten:
-                        <List mx={3}>
+                        <List
+                            mx={3}
+                            style={{
+                                textIndent: "-23px",
+                                paddingLeft: "40px"
+                            }}
+                        >
                             <ListItem>
                                 <ListIcon as={CheckCircleIcon} color='green.500' />
                                 Scratch
@@ -72,7 +78,7 @@ const Cs50x = () => {
                             </ListItem>
                             <ListItem>
                                 <ListIcon as={CheckCircleIcon} color='green.500' />
-                                Memory (Pointers, Dynamic Memory Allocation, Call Stacks)
+                                <span>Memory (Pointers, Dynamic Memory Allocation, Call Stacks)</span>
                             </ListItem>
                             <ListItem>
                                 <ListIcon as={CheckCircleIcon} color='green.500' />
@@ -111,13 +117,13 @@ const Cs50x = () => {
                     </Heading>
                     <SimpleGrid columns={[1,1,2]} gap={6}>
                         <Section>
-                            <ProjectGridItem image="/images/contents/problem-set-4-filter.png" alt="Problem Set 4 - Filter (Edges)">Problem Set 4 - Bild-Manipulation, u. a. Kantendetektions-Filter (geschrieben in C)</ProjectGridItem>
+                            <ProjectGridItem image="/images/contents/problem-set-4-filter.png" thumb="/images/contents/problem-set-4-filter-thumb.png" alt="Problem Set 4 - Filter (Edges)">Problem Set 4 - Bild-Manipulation, u. a. Kantendetektions-Filter (geschrieben in C)</ProjectGridItem>
                         </Section>
                         <Section>
-                            <ProjectGridItem image="/images/contents/lecture-5-data-structures.png" alt="Lecture 5 - Data Structures">Lecture 5 - Data Structures</ProjectGridItem>
+                            <ProjectGridItem image="/images/contents/lecture-5-data-structures.png" thumb="/images/contents/lecture-5-data-structures-thumb.png" alt="Lecture 5 - Data Structures">Lecture 5 - Data Structures</ProjectGridItem>
                         </Section>
                         <Section>
-                            <ProjectGridItem image="/images/contents/problem-set-9-finance.png" alt="Problem Set 9 - Finance">Problem Set 9 - Simulierter Aktienhandel mit echten Börsenwerten via API</ProjectGridItem>
+                            <ProjectGridItem image="/images/contents/problem-set-9-finance.png" thumb="/images/contents/problem-set-9-finance-thumb.png" alt="Problem Set 9 - Finance">Problem Set 9 - Simulierter Aktienhandel mit echten Börsenwerten via API</ProjectGridItem>
                         </Section>
                     </SimpleGrid>
                 </Section>

@@ -43,7 +43,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
     </Box>
 )
 
-export const ProjectGridItem = ({ children, image, alt }) => (
+export const ProjectGridItem = ({ children, image, thumb, alt }) => (
     <Box
         w="100%"
         align="center"
@@ -53,7 +53,7 @@ export const ProjectGridItem = ({ children, image, alt }) => (
             overflow="hidden"
         >
             <ModalImage
-                small={image}
+                small={thumb}
                 large={image}
                 alt={alt}
                 hideDownload="true"

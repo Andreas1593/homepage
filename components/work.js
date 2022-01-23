@@ -1,6 +1,7 @@
 import NextLink from 'next/link'
 import { Heading, Box, Image, Link, Badge } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import ModalImage from 'react-modal-image';
 
 export const Title = ({ children }) => (
     <Box>
@@ -18,8 +19,21 @@ export const Title = ({ children }) => (
     </Box>
 )
 
-export const WorkImage = ({ src, alt }) => (
-    <Image borderRadius="lg" maxW="full" maxH="400px" src={src} alt={alt} mb={4} />
+export const WorkImage = ({ thumb, image, alt }) => (
+    <Box
+        rounded="lg"
+        overflow="hidden"
+        maxW="full"
+        maxH="full"
+        mb={4}
+    >
+        <ModalImage
+            small={thumb}
+            large={image}
+            alt={alt}
+            hideDownload="true"
+        />
+    </Box>
 )
 
 export const WorkVideo = ({ embedId }) => (
