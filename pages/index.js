@@ -68,7 +68,7 @@ const Page = () => {
                         Über mich
                     </Heading>
                     <Paragraph>
-                        Angehender Software-Entwickler mit Fokus auf Web-Entwicklung. Überwiegend Erfahrungen mit Python, HTML / CSS / Javascript, aber auch C und C#.
+                        Software-Entwickler mit Fokus auf Web-Entwicklung. Überwiegend Erfahrungen mit Python, HTML / CSS / Javascript, aber auch C und C#.
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/works">

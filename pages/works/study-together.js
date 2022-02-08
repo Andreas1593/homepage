@@ -26,6 +26,11 @@ const Work = () => {
                     entfernt und falsch beantwortete am Ende erneut abgefragt werden. Feedback erhält man durch eine persönliche <span style={{ color: 'green' }}>Quote</span>, 
                     wie oft Karten auf den ersten Versuch richtig beantwortet wurden.
                 </P>
+                <br />
+                <b>Demo-Account:</b><br />
+                Username: <i>demo_user</i><br />
+                Passwort: <i>demo_user</i>
+
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>

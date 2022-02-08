@@ -6,6 +6,7 @@ import Layout from '../components/layouts/article'
 import thumbPackageViewer from '../public/images/works/package-viewer_eyecatch.png'
 import thumbStudyTogether from '../public/images/works/study-together_eyecatch.png'
 import thumbDesertDefense from '../public/images/works/desert-defense_eyecatch.png'
+import thumbTimeTracker from '../public/images/works/time-tracker_eyecatch.png'
 
 const Works = () => {
     return (
@@ -29,6 +30,11 @@ const Works = () => {
                     <Section>
                         <WorkGridItem id="desert-defense" title="Desert Defense" thumbnail={thumbDesertDefense}>
                             Ein &quot;Tower Defense&quot;-Spiel in 3D, erstellt mit Unity
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="time-tracker" title="Time Tracker" thumbnail={thumbTimeTracker}>
+                            Einfache Windows-Applikation zum Tracken der Zeit
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
