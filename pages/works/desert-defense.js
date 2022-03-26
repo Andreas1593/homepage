@@ -2,6 +2,7 @@ import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkVideo, Meta } from '../../components/work'
 import P from '../../components/paragraph'
+import Green from '../../components/green'
 import Layout from '../../components/layouts/article'
 
 const Work = () => {
@@ -12,7 +13,7 @@ const Work = () => {
                     Desert Defense <Badge>2021</Badge>
                 </Title>
                 <P>
-                    Ein <span style={{ color: 'green' }}>3D-Spiel</span> im beliebten &quot;Tower Defense&quot;-Stil. Es erscheinen Wellen an Gegnern, die einen bestimmten Weg entlang laufen.
+                    Ein <Green>3D-Spiel</Green> im beliebten &quot;Tower Defense&quot;-Stil. Es erscheinen Wellen an Gegnern, die einen bestimmten Weg entlang laufen.
                     Das Ziel des Spielers ist es, Geschütztürme zu bauen, die automatisch schießen, um die Gegner zu töten, bevor sie das Ende erreichen.
                     Das Schwierige dabei ist, dass die Ressourcen für den Bau begrenzt sind.
                 </P>

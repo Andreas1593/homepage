@@ -15,6 +15,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
+import Paragraph2 from '../components/paragraph2'
 // Maybe later
 // import { BioSection, BioYear } from '../components/bio'
 // import { GridItem } from '../components/grid-item'
@@ -44,23 +45,23 @@ const Page = () => {
                         </Heading>
                         <p>Developer</p>
                     </Box>
-                <Box
-                    flexShrink={0}
-                    mt={{ base: 4, md: 0 }}
-                    ml={{ md: 6 }}
-                    align="center"
-                >
-                    <Image
-                        borderColor="whiteAlpha.800"
-                        borderWidth={2}
-                        borderStyle="solid"
-                        maxWidth="100px"
-                        display="inline-block"
-                        borderRadius="full"
-                        src="/images/andreas.png"
-                        alt="Profile Image"
-                    />
-                </Box>
+                    <Box
+                        flexShrink={0}
+                        mt={{ base: 4, md: 0 }}
+                        ml={{ md: 6 }}
+                        align="center"
+                    >
+                        <Image
+                            borderColor="whiteAlpha.800"
+                            borderWidth={2}
+                            borderStyle="solid"
+                            maxWidth="100px"
+                            display="inline-block"
+                            borderRadius="full"
+                            src="/images/andreas.png"
+                            alt="Profile Image"
+                        />
+                    </Box>
                 </Box>
 
                 <Section delay={0.1}>
@@ -68,8 +69,15 @@ const Page = () => {
                         Über mich
                     </Heading>
                     <Paragraph>
-                        Software-Entwickler mit Fokus auf Web-Entwicklung. Überwiegend Erfahrungen mit Python, HTML / CSS / Javascript, aber auch C und C#.
+                        Software-Entwickler mit Fokus auf Web-Entwicklung. Überwiegend Erfahrungen mit Python, HTML/CSS/Javascript, C und C#.
                     </Paragraph>
+                    <Paragraph2>
+                        Auch Erfahrungen im EDI-Bereich: B2B-Integration, Mapping-Programmierung (XSLT) und Erstellen von Schnittstellen-Guidelines.
+                    </Paragraph2>
+                    <br />
+                    <Paragraph2>
+                        Immer mit Begeisterung dabei, neue Technologien/Frameworks zu erlernen!
+                    </Paragraph2>
                     <Box align="center" my={4}>
                         <NextLink href="/works">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">

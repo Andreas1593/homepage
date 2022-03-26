@@ -35,7 +35,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>Flask, Three.js</span>
+                        <span>Flask, Bootstrap, Three.js</span>
                     </ListItem>
                 </List>
 

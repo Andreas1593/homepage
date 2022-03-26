@@ -13,12 +13,12 @@ const VoxelCoffee = () => {
     const [loading, setLoading] = useState(true)
     const [renderer, setRenderer] = useState()
     const [_camera, setCamera] = useState()
-    const [target] = useState(new THREE.Vector3(-0.5, 1.2, 0))
+    const [target] = useState(new THREE.Vector3(0, 1.2, 0))
     const [initialCameraPosition] = useState(
         new THREE.Vector3(
-            30 * Math.sin(0.2 * Math.PI),
-            10,
-            30 * Math.cos(0.2 * Math.PI)
+            17 * Math.sin(0.2 * Math.PI),
+            7,
+            17 * Math.cos(0.2 * Math.PI)
         )
     )
     const [scene] = useState(new THREE.Scene())
@@ -87,7 +87,7 @@ const VoxelCoffee = () => {
                     const p = initialCameraPosition
                     const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
 
-                    camera.position.y = 10
+                    camera.position.y = 7
                     camera.position.x = p.x * Math.cos(rotSpeed) + p.z * Math.sin(rotSpeed)
                     camera.position.z = p.z * Math.cos(rotSpeed) - p.x * Math.sin(rotSpeed)
                     camera.lookAt(target)
@@ -118,8 +118,8 @@ const VoxelCoffee = () => {
             className="voxel-coffee"
             m="auto"
             at={['-20px', '-60px', '-120px']}
-            mb={['-100px', '-140px', '-280px']}
-            mt={['-80px', '-140px', '-230px']}
+            mb={['-100px', '-175px', '-255px']}
+            mt={['-95px', '-180px', '-270px']}
             w={[280, 480, 680]}
             h={[280, 480, 680]}
             position="relative"
@@ -130,8 +130,8 @@ const VoxelCoffee = () => {
                     position="absolute"
                     left="50%"
                     top="50%"
-                    ml="calc(0px - var(--spinner-size) / 2"
-                    mt="calc(0px - var(--spinner-size)"
+                    ml="-20px"
+                    mt="-5px"
                 />
             )}
         </Box>
