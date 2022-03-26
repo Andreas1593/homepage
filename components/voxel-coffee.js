@@ -16,9 +16,9 @@ const VoxelCoffee = () => {
     const [target] = useState(new THREE.Vector3(0, 1.2, 0))
     const [initialCameraPosition] = useState(
         new THREE.Vector3(
-            17 * Math.sin(0.2 * Math.PI),
+            20 * Math.sin(0.2 * Math.PI),
             7,
-            17 * Math.cos(0.2 * Math.PI)
+            20 * Math.cos(0.2 * Math.PI)
         )
     )
     const [scene] = useState(new THREE.Scene())
