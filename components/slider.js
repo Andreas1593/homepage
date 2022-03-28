@@ -29,6 +29,7 @@ export default class AutoPlay extends Component {
             cssEase: "linear",
             swipeToSlide: true,
             pauseOnHover: false,
+            pauseOnFocus: true,
         };
         return (
             <div>
