@@ -72,7 +72,11 @@ const Page = () => {
                     <Paragraph>
                         Software-Entwickler mit Fokus auf Web-Entwicklung. Überwiegend Erfahrungen mit Python, HTML/CSS/Javascript, C und C#.
                     </Paragraph>
+                </Section>
+                <Section delay={0.1}>
                     <Slider />
+                </Section>
+                <Section delay={0.2}>
                     <Paragraph2>
                         Auch Erfahrungen im EDI-Bereich: B2B-Integration, Mapping-Programmierung (XSLT) und Erstellen von Schnittstellen-Guidelines.
                     </Paragraph2>
