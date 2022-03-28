@@ -31,7 +31,6 @@ export default class AutoPlay extends Component {
         };
         return (
             <div>
-              <h2>Auto Play</h2>
                 <Slider {...settings}>
                     <div>
                         <SliderLogo
