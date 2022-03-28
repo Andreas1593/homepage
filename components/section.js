@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
 import { chakra, shouldForwardProp } from '@chakra-ui/react'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 
 const StyledDiv = chakra(motion.div, {
     shouldForwardProp: prop => {
