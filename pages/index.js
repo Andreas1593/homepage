@@ -15,7 +15,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import Paragraph2 from '../components/paragraph2'
+
 // Maybe later
 // import { BioSection, BioYear } from '../components/bio'
 // import { GridItem } from '../components/grid-item'
@@ -70,16 +70,14 @@ const Page = () => {
                         Über mich
                     </Heading>
                     <Paragraph>
-                        Software-Entwickler mit Fokus auf Web-Entwicklung. Überwiegend Erfahrungen mit Python, HTML/CSS/Javascript, C und C#.
+                        Software Developer mit dem mit Motto &quot;never stop learning&quot;. Immer auf der Suche nach komplexen Herausforderungen, 
+                        bei denen es auf Details und Clean Code ankommt.
                     </Paragraph>
                     <Slider />
-                    <Paragraph2>
-                        Auch Erfahrungen im EDI-Bereich: B2B-Integration, Mapping-Programmierung (XSLT) und Erstellen von Schnittstellen-Guidelines.
-                    </Paragraph2>
+                    <Paragraph>
+                        Außerdem Fachmann für elektronischen Datenaustausch (EDI): B2B-Integration, Mapping-Programmierung (XSLT) und Erstellen von Schnittstellen-Guidelines.
+                    </Paragraph>
                     <br />
-                    <Paragraph2>
-                        Immer mit Begeisterung dabei, neue Technologien/Frameworks zu erlernen!
-                    </Paragraph2>
                     <Box align="center" my={4}>
                         <NextLink href="/works">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
