@@ -70,8 +70,7 @@ const Page = () => {
                         Über mich
                     </Heading>
                     <Paragraph>
-                        Software Developer mit dem mit Motto &quot;never stop learning&quot;. Immer auf der Suche nach komplexen Herausforderungen, 
-                        bei denen es auf Details und Clean Code ankommt.
+                        Software Developer mit Spaß und Ehrgeiz am Lernen und Weiterentwicklen. Stets auf der Suche nach komplexen Herausforderungen.
                     </Paragraph>
                     <Slider />
                     <Paragraph>
