@@ -70,7 +70,7 @@ const Page = () => {
                         Über mich
                     </Heading>
                     <Paragraph>
-                        Software Developer mit Spaß und Ehrgeiz am Lernen und Weiterentwicklen. Stets auf der Suche nach komplexen Herausforderungen.
+                        Software Developer mit der nötigen Freude am Lernen und sich Entwickeln. Stets auf der Suche nach komplexen Herausforderungen.
                     </Paragraph>
                     <Slider />
                     <Paragraph>
